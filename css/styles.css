@@ -7,10 +7,17 @@
     color: #035e30;
 }
 
+div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .navbar {
     background-color: #f0f0f0;
     overflow: hidden;
-    box-shadow: 5px 10px #035e30;
+    box-shadow: 5px 5px #035e30;
+    padding-left: 9%;
+    padding-right: 9%;
 }
 
 .navbar a {
@@ -18,9 +25,9 @@
     background-color: #f0f0f0;
     color: #035e30;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 15px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 .navbar a:hover {
@@ -29,12 +36,42 @@
 }
 
 .navbar-logo a {
+    font-weight: bold;
     float: left;
 }
 
 .navbar-logo a:hover {
     background-color: #f0f0f0;
+    font-weight: normal;
     color: #035e30;
     text-shadow: 2px 2px #00aa55;
+}
+
+.intro {
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px #035e30;
+    
+    padding-top: 5%;
+
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.title, .title2, .desc {
+    grid-column: 1 / 2;
+    font-size: 100px;
+    background-color: #f0f0f0;
+}
+
+.title2 {
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 20px;
+}
+
+.stuff {
+    grid-column: 2 / 2;
 }
 
