@@ -4,5 +4,37 @@
 * {
     font-family: 'PT Sans', sans-serif;
     background-color: white;
-    color: #00aa55;
+    color: #035e30;
 }
+
+.navbar {
+    background-color: #f0f0f0;
+    overflow: hidden;
+    box-shadow: 5px 10px #035e30;
+}
+
+.navbar a {
+    float: right;
+    background-color: #f0f0f0;
+    color: #035e30;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+   background-color: #035e30;
+   color: white;
+}
+
+.navbar-logo a {
+    float: left;
+}
+
+.navbar-logo a:hover {
+    background-color: #f0f0f0;
+    color: #035e30;
+    text-shadow: 2px 2px #00aa55;
+}
+
