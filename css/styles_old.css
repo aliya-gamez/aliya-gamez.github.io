@@ -1,0 +1,77 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;
+    background-color: white;
+    color: #035e30;
+}
+
+div {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    overflow: hidden;
+    box-shadow: 5px 5px #035e30;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.navbar a {
+    float: right;
+    background-color: #f0f0f0;
+    color: #035e30;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+.navbar a:hover {
+   background-color: #035e30;
+   color: white;
+}
+
+.navbar-logo a {
+    font-weight: bold;
+    float: left;
+}
+
+.navbar-logo a:hover {
+    background-color: #f0f0f0;
+    font-weight: normal;
+    color: #035e30;
+    text-shadow: 2px 2px #00aa55;
+}
+
+.intro {
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px #035e30;
+    
+    padding-top: 5%;
+
+    display: grid;
+    grid-template-columns: 2;
+}
+
+.title, .title2, .desc {
+    grid-column: 1 / 2;
+    font-size: 100px;
+    background-color: #f0f0f0;
+}
+
+.title2 {
+    font-size: 50px;
+}
+
+.desc {
+    font-size: 30px;
+}
+
+.stuff {
+    grid-column: 2 / 2;
+}
+
