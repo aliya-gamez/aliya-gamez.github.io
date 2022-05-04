@@ -1,1 +1,36 @@
 /* styles.css */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* styles */
+* {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+}
+
+/* NAVBAR */
+.navbar-container {
+    display: flex;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.nav-item {
+    flex: 1 1 auto;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.nav-section {
+    flex: 1.5 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+}
+
+.nav-links {
+    font-size: 25px;
+}
+
