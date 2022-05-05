@@ -12,25 +12,45 @@
 /* NAVBAR */
 .navbar-container {
     display: flex;
-    height: 150px;
-    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
 }
 
 .nav-item {
-    flex: 1 1 auto;
-    width: 100px;
-    border: 1px solid red;
+    flex: 0 0 auto;
+    display: block;
+    text-align: center;
+    display: block;
 }
 
-.nav-section {
-    flex: 1.5 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 375px;
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 0.675);
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+
+.nav-logo {
+    margin-left: 15%;
+    font-size: 30px;
 }
 
 .nav-links {
-    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin-right: 15%;
 }
 
+.nav-link {
+    font-size: 20px;
+}
+
+/*ABOUT*/
