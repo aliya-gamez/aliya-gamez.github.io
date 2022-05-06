@@ -2,7 +2,7 @@
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&display=swap');
 
 /* styles */
 * {
@@ -74,7 +74,6 @@
 
 .intro-col-1 h2, .intro-col-1 h1, .intro-col-1 p{
     font-weight: 300;
-    font-family: 'Inconsolata', monospace;
 }
 
 .intro-col-1 h2, .intro-col-1 h1 {
@@ -106,28 +105,98 @@
 
 .project-section {
     background-color: rgb(245, 245, 245);
-    border: 1px solid green;
+    border: 1px solid transparent;
 }
 
 .project-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 4vw;
     margin: 6% 15%;
-    border: 1px solid black;
 }
 
 .project-heading, .project {
-    border: 1px dashed red;
 }
 
 .project-heading {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
 }
 
-.project {
-    flex: 1 1 auto;
+.project-heading h1 {
+    font-weight: 300;
+    font-size: 4vw;
 }
+
+.project-subheading {
+    flex: 0 1 auto;
+}
+
+.project-subheading h1 {
+    font-weight: 100;
+    font-size: 2.2vw;
+    border-bottom: 1px solid #9a9a9a;
+    padding-bottom: 5px;
+}
+.project {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10%;
+    width: 50vw;
+}
+
+.project img {
+    flex: 0 1 auto;
+    width: 20vw;
+    height: auto;
+}
+
+.project-info {
+    display: block;
+    flex: 0 1 auto;
+    width: 25vw;
+    padding: 0 auto;
+}
+
+.project h1 {
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+.project h2 {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.project h3 {
+    font-size: 1.25vw;
+    font-weight: 400;
+    margin-bottom: 1.3vw;
+    color:rgb(135, 135, 135);
+}
+
+.project p {
+    font-size: 1.3vw;
+}
+
+.project button {
+    font-size: 1.3vw;
+    margin-top: 1.0vw;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.project button:hover {
+    font-size: 1.35vw;
+    margin-top: 0.95vw;
+    background-color: rgb(226, 226, 226);
+}
+
+
 
 
 
