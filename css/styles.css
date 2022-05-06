@@ -112,12 +112,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     justify-content: center;
-    gap: 6vw;
+    gap: 6.5vw;
     margin: 6% 15%;
 }
 
-.project-heading, .project {
+.project-heading, .project-subheading, .project {
 }
 
 .project-heading {
@@ -163,7 +164,7 @@
 }
 
 .project h1 {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: 600;
 }
 
@@ -217,6 +218,26 @@
 }
 
 /*contact */
+.contact-section {
+    background-color:rgb(245, 245, 245);
+    border: 1px solid transparent;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    margin: 6% 15%;
+}
+
+.contact-heading h1 {
+    font-weight: 300;
+    font-size: 4vw;
+}
+
+/* footer */
 
 
 
