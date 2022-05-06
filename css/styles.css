@@ -113,7 +113,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4vw;
+    gap: 6vw;
     margin: 6% 15%;
 }
 
@@ -137,7 +137,7 @@
     font-weight: 100;
     font-size: 2.2vw;
     border-bottom: 1px solid #9a9a9a;
-    padding-bottom: 5px;
+    padding-bottom: -px;
 }
 .project {
     flex: 0 1 auto;
@@ -195,6 +195,28 @@
     margin-top: 0.95vw;
     background-color: rgb(226, 226, 226);
 }
+
+/* work */
+.work-section {
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    margin: 6% 15%;
+}
+
+.work-heading h1 {
+    font-weight: 300;
+    font-size: 4vw;
+}
+
+/*contact */
 
 
 
