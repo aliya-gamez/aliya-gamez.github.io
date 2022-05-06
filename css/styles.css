@@ -11,6 +11,10 @@
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 .navbar-container {
     display: flex;
