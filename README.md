@@ -1,5 +1,7 @@
-# My Personal Website *WIP*
+# My Professional Portfolio *WIP*
 
-**Description:** This project is meant to be a portfolio and "Interactive Resume" of all of my projects and experience thus far. 
+## Description:
+This project is meant to be a portfolio and "Interactive Resume" of all of my projects and experience.
 
-**URL:** [Personal Website](https://aliya-gamez.github.io)
+## URL: [Portfolio](https://aliya-gamez.github.io)
+
